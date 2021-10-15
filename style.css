@@ -1,0 +1,79 @@
+
+html, body {
+	height: 100%;
+	user-select: none;
+	-webkit-user-select: none;
+  background-color: rgb(255, 255, 255);
+}
+
+#container {
+  background-color: white;
+  width: 3000px;
+  height: 2250px;
+  background-image: url(img/se-01.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#info {
+  background-color: rgba(255, 255, 255, 0);
+  padding: 0.5em;
+  font-size: 2.8em;
+  font-family: Helvetica;
+
+}
+
+.clickArea {
+  top: 80px;
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  margin: 10px;
+  display: inline-block;
+  position: absolute;
+  opacity: 0.5;
+  transition: width 0.5s, height 0.5s;
+
+  
+}
+
+div:hover {
+  width: 150px;
+  height: 150px;
+}
+
+
+#STHLM {
+  left: 1500px;
+  top: 1575px;
+  border-radius: 100px;
+  
+
+}
+#RDKLN {
+  left: 1750px;
+  top: 650px;
+  border-radius: 100px;
+}
+#NMKKA {
+  left: 1700px;
+  top: 100px;
+  border-radius: 100px;
+}
+#MRSIL {
+  left: 1150px;
+  top: 950px;
+  border-radius: 100px;
+}
+#MALMÖ {
+  left: 1125px;
+  top: 2035px;
+  border-radius: 100px;
+}
+#GTBRG {
+  left: 635px;
+  left: 1050px;
+  top: 1800px;
+  border-radius: 100px;
+}
+

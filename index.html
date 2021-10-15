@@ -1,0 +1,62 @@
+<!doctype html>
+
+
+
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, user-scalable=no" />
+		<title>Interactive Map of Sweden</title>
+		<script src="jquery.js"></script>
+		<script src="max.size.js"></script>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+
+
+	<body>
+		
+		<div id="container" class="max-size">
+			<div id="info">
+				<h3>Interactive Map of Sweden</h3>
+				<pre style="font-family:Helvetica;">Click on one of the places to hear the sonification of 
+the average temperature over the last 20 years!</pre>
+<pre style="font-family:Helvetica;">The data was retrieved from the SMHI, 
+then processed to .mid files using python with MIDITime library. 
+The sounds were processed using FL Studio 
+and the TAL U-NO-LX plugin.
+The interactive map was made using HTML, CSS 
+and the WebAudioXML library.
+
+All sources will be linked to below. </pre>
+
+<pre>Meteorological Data of Sweden by SMHI. 
+<a href=https://www.smhi.se/data/meteorologi/ladda-ner-meteorologiska-observationer#param=airtemperatureInstant,stations=all>https://www.smhi.se/data/meteorologi</a></pre>
+
+<pre>MIDITime by Reveal and Micheal Corey. 
+<a href="https://github.com/cirlabs/miditime">https://github.com/cirlabs/miditime</a></pre> 
+
+				<pre>WebAudioXML by Hans Lindetorp. 
+<a href="https://github.com/hanslindetorp/WebAudioXML">https://github.com/hanslindetorp/WebAudioXML</a></pre> 
+
+<pre>Image Map of Sweden by Vemaps. 
+<a href="https://vemaps.com/sweden/se-01">https://vemaps.com/sweden/se-01</a></pre> 
+				
+			</div>
+
+			<div id="instructions">
+				
+				<div class="clickArea" id="STHLM"></div>
+				<div class="clickArea" id="RDKLN"></div>
+				<div class="clickArea" id="NMKKA"></div>
+				<div class="clickArea" id="MRSIL"></div>
+				<div class="clickArea" id="MALMÖ"></div>
+				<div class="clickArea" id="GTBRG"></div>
+				
+			</div>
+
+			
+		</div>
+		
+		<script src="WebAudioXML.js" data-source="audio.xml"></script>
+	</body>
+</html>
