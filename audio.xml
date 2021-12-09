@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Audio version="1.0" timeUnit="ms" gain="-10dB">
 
-		<AudioBufferSourceNode class="temperature" start="#STHLM" src="audio/STHLM.mp3"></AudioBufferSourceNode>
-		<AudioBufferSourceNode class="temperature" start="#RDKLN" src="audio/RDKLN.mp3"></AudioBufferSourceNode>
-		<AudioBufferSourceNode class="temperature" start="#NMKKA" src="audio/NMKKA.mp3"></AudioBufferSourceNode>
-		<AudioBufferSourceNode class="temperature" start="#MRSIL" src="audio/MRSIL.mp3"></AudioBufferSourceNode>
-		<AudioBufferSourceNode class="temperature" start="#MALMÖ" src="audio/MALMÖ.mp3"></AudioBufferSourceNode>
-		<AudioBufferSourceNode class="temperature" start="#GTBRG" src="audio/GTBRG.mp3"></AudioBufferSourceNode>
+		<AudioBufferSourceNode class="temperature" start="#STHLM" src="audio/STHLM_2.mp3"></AudioBufferSourceNode>
+		<AudioBufferSourceNode class="temperature" start="#RDKLN" src="audio/RDKLN_2.mp3"></AudioBufferSourceNode>
+		<AudioBufferSourceNode class="temperature" start="#NMKKA" src="audio/NMKKA_2.mp3"></AudioBufferSourceNode>
+		<AudioBufferSourceNode class="temperature" start="#MRSIL" src="audio/MRSIL_2.mp3"></AudioBufferSourceNode>
+		<AudioBufferSourceNode class="temperature" start="#MALMÖ" src="audio/MALMÖ_2.mp3"></AudioBufferSourceNode>
+		<AudioBufferSourceNode class="temperature" start="#GTBRG" src="audio/GTBRG_2.mp3"></AudioBufferSourceNode>
 
 </Audio>
